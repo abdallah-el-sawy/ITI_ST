@@ -1,0 +1,43 @@
+﻿@model IEnumerable<Lab3.Models.Employee>
+
+@{
+    ViewData["Title"] = "Employees";
+}
+
+<h1>Employees</h1>
+
+<p><a asp-action="Create" class="btn btn-primary">Add Employee</a></p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Salary</th>
+            <th>Job Title</th>
+            <th>Department</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in Model)
+        {
+            <tr>
+                <td>@employee.Id</td>
+                <td>@employee.Name</td>
+                <td>@employee.Age</td>
+                <td>@employee.Salary.ToString("N0")</td>
+                <td>@employee.JobTitle</td>
+                <td>@(employee.Department?.Name)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@employee.Id" class="btn btn-sm btn-secondary">Edit</a>
+                    <form asp-action="Delete" asp-route-id="@employee.Id" method="post" style="display:inline;"
+                          onsubmit="return confirm('Delete this employee?');">
+                        <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
