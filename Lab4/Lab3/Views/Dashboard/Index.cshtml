@@ -1,0 +1,50 @@
+﻿@model Lab3.ViewModels.DashboardViewModel
+
+@{
+    ViewData["Title"] = "Statistics";
+}
+
+<h1>Statistics Dashboard</h1>
+
+<div class="row">
+    <div class="col-md-4 mb-3">
+        <div class="card text-white bg-primary">
+            <div class="card-body">
+                <h5 class="card-title">Total Employees</h5>
+                <p class="card-text fs-3">@Model.TotalEmployees</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-3">
+        <div class="card text-white bg-secondary">
+            <div class="card-body">
+                <h5 class="card-title">Total Departments</h5>
+                <p class="card-text fs-3">@Model.TotalDepartments</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-3">
+        <div class="card text-white bg-success">
+            <div class="card-body">
+                <h5 class="card-title">Average Salary</h5>
+                <p class="card-text fs-3">@Model.AverageSalary.ToString("N0")</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 mb-3">
+        <div class="card text-white bg-info">
+            <div class="card-body">
+                <h5 class="card-title">Highest Salary</h5>
+                <p class="card-text fs-3">@Model.HighestSalary.ToString("N0")</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 mb-3">
+        <div class="card text-white bg-warning">
+            <div class="card-body">
+                <h5 class="card-title">Lowest Salary</h5>
+                <p class="card-text fs-3">@Model.LowestSalary.ToString("N0")</p>
+            </div>
+        </div>
+    </div>
+</div>

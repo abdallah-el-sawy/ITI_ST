@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<h1>@ViewBag.WelcomeMessage</h1>
+
+<p>You visited this page @ViewBag.VisitCount times.</p>
+
+<p>
+    <a asp-controller="Home" asp-action="SetUserName" class="btn btn-outline-primary btn-sm">Set / Change User Name</a>
+    <a asp-controller="Dashboard" asp-action="Index" class="btn btn-outline-secondary btn-sm">View Statistics</a>
+</p>
