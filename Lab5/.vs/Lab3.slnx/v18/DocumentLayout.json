@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\z-study\\ITI\\Lab4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|c:\\z-study\\iti\\lab4\\lab3\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|solutionrelative:lab3\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|c:\\z-study\\iti\\lab4\\lab3\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|solutionrelative:lab3\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|c:\\z-study\\iti\\lab4\\lab3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|solutionrelative:lab3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|c:\\z-study\\iti\\lab4\\lab3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|solutionrelative:lab3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|c:\\z-study\\iti\\lab4\\lab3\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|solutionrelative:lab3\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\z-study\\ITI\\Lab4\\Lab3\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "Lab3\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\z-study\\ITI\\Lab4\\Lab3\\Repositories\\Repository.cs",
+              "RelativeToolTip": "Lab3\\Repositories\\Repository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T20:32:53.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\z-study\\ITI\\Lab4\\Lab3\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "Lab3\\Repositories\\IRepository.cs",
+              "ToolTip": "C:\\z-study\\ITI\\Lab4\\Lab3\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "Lab3\\Repositories\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T20:17:57.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\z-study\\ITI\\Lab4\\Lab3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Lab3\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\z-study\\ITI\\Lab4\\Lab3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Lab3\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAC8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-19T20:25:32.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\z-study\\ITI\\Lab4\\Lab3\\Program.cs",
+              "RelativeDocumentMoniker": "Lab3\\Program.cs",
+              "ToolTip": "C:\\z-study\\ITI\\Lab4\\Lab3\\Program.cs",
+              "RelativeToolTip": "Lab3\\Program.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAcwD8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T20:25:17.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\z-study\\ITI\\Lab4\\Lab3\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Lab3\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\z-study\\ITI\\Lab4\\Lab3\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Lab3\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAcwCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T20:24:59.887Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

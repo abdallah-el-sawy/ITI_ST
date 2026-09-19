@@ -1,0 +1,12 @@
+﻿@model Lab3.Models.ErrorViewModel
+@{
+    ViewData["Title"] = "Error";
+}
+
+<h1 class="text-danger">Something went wrong</h1>
+<p>Sorry, an unexpected error occurred while processing your request. Please try again, or go back to the <a asp-controller="Home" asp-action="Index">home page</a>.</p>
+
+@if (Model.ShowRequestId)
+{
+    <p><strong>Request ID:</strong> @Model.RequestId</p>
+}
