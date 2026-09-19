@@ -6,7 +6,7 @@
 
 1. Clone the repository
 ```bash
-   git clone <repository-url>
+   git clone (https://github.com/abdallah-el-sawy/ITI_ST.git)
    cd Lab3
 ```
 
@@ -18,7 +18,7 @@
 3. Set your connection string in `appsettings.json`
 ```json
    "ConnectionStrings": {
-     "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=Lab3Db;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True"
+     "DefaultConnection": "Server=.\\mssqllocaldb;Database=Lab3Db;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True"
    }
 ```
 
