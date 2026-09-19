@@ -1,5 +1,40 @@
 # ITI_ST
-## This ReadMe Contain the whole Routes of Lab3,4 and 5 you can check it
+## This ReadMe Contain How to Run The Project on your local PC and the whole Routes of Lab3,4 and 5 you can check it
+
+
+## How to Run
+
+1. Clone the repository
+```bash
+   git clone <repository-url>
+   cd Lab3
+```
+
+2. Restore dependencies
+```bash
+   dotnet restore
+```
+
+3. Set your connection string in `appsettings.json`
+```json
+   "ConnectionStrings": {
+     "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=Lab3Db;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True"
+   }
+```
+
+4. Apply migrations
+```bash
+   dotnet ef database update
+```
+
+5. Run the project
+```bash
+   dotnet run
+```
+
+
+
+
 
 BackEnd Tasks from ITI in SummerTraining
 
